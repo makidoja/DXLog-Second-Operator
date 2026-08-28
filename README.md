@@ -4,7 +4,9 @@ A DXLog.net custom form for a **second operator on the same radio and the same l
 
 The project is designed for SO2V-style operation where the main DXLog operator uses **VFO A** and a second operator uses **VFO B**, while sharing DXLog's contest log and serial-number server.
 
-Current version: **v0.1.46**
+Current version: **v0.1.47**
+
+[Download the v0.1.47 source package](DXLogSecondOperator-v0.1.47.zip)
 
 > This is a third-party DXLog.net custom form and is not an official DXLog.net component.
 
@@ -53,7 +55,7 @@ For a physically isolated second keyboard you also need the Interception keyboar
 
 ## Build
 
-Open:
+Extract `DXLogSecondOperator-v0.1.47.zip`, then open:
 
 ```text
 DXLogSecondOperator.sln
@@ -215,9 +217,9 @@ The Setup dialog supports two independent serial-port status inputs. Each can us
 
 The two pedals may use different COM ports or different status lines on one adapter.
 
-See [docs/PTT.md](docs/PTT.md) for setup notes.
+PTT notes are included in the source package under `docs/PTT.md`.
 
-## Files
+## Files in the source package
 
 ```text
 DXLogSecondOperator/     DXLog custom-form plugin
@@ -237,6 +239,6 @@ run-input-identify.bat  interactive keyboard/mouse identification
 
 ## Version
 
-Current source: **v0.1.46**.
+Current source: **v0.1.47**.
 
 See [CHANGELOG.md](CHANGELOG.md) for recent development history.
