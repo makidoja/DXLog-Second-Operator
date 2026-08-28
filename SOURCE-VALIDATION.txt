@@ -1,0 +1,8 @@
+DXLog Second Operator v0.1.47 source validation
+
+- Based on v0.1.46.
+- Removed the temporary `_privateKeyboardPackets` diagnostic counter and the `keys N` text update.
+- Connected isolated-keyboard status remains `Keyboard B`.
+- No changes to QSO logging, serial reservation, keyboard isolation, VFO-B or PTT logic.
+- C# brace and parenthesis counts are balanced.
+- No C# compiler/DXLog assemblies are available in this environment; compile in Visual Studio 2022 Debug|x86 or Release|x86 as usual.
